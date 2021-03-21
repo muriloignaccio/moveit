@@ -1,9 +1,5 @@
 import styles from '../styles/components/Profile.module.css';
 
-import all from 'next/config';
-
-console.log(all)
-
 export function Profile() {
   return (
     <div className={styles.profileContainer}>
